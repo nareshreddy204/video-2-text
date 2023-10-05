@@ -31,15 +31,6 @@ def main():
                 st.error("Error occurred while transcribing.")
                 st.write("Please try again.")
 
-    st.write(
-        "If you need help or have questions about Video2Text, feel free to reach out to me.")
-
-    st.write("Please enter your message below:")
-    user_message = st.text_area("Your Message:")
-
-    st.markdown(
-        f'<a href="mailto:contact@jhayer.tech?subject=Video2Text-Help&body={user_message}">Send Mail</a>', unsafe_allow_html=True)
-
-
+    
 if __name__ == "__main__":
     main()
